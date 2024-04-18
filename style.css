@@ -1,0 +1,526 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, sans-serif;
+}
+
+#header{
+    display: flex;
+    width: 100%;
+    height: 80px;
+    align-items: center;
+    background-color: #131921;
+    justify-content: space-between;
+    z-index: 1;
+    position: sticky;
+    top: 0;
+    left: 0;
+    
+}
+#header img{
+    
+    height: 50px;
+}
+span{
+    color: white;
+}
+form{
+    display: flex;
+}
+.option{
+    width: 50px;
+    color: black;
+    /* border-radius: 5px; */
+    padding: 3px;
+    border: none;
+}
+.placeholder{
+    padding: 10px;
+    margin: 0;
+    width: 600px;
+    font-size: 1rem;
+    line-height: 1.5;
+    background-color: white;
+    border: none;
+}
+button{
+    width: 50px;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    color: black;
+    background-color: #f3a847;
+    /* border-radius: 5px; */
+    border: none;
+}
+#header a{
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+    /* height: 50px; */
+    padding: 5px 5px 5px 5px;
+}    
+.Cart{
+    padding: 5px 5px 5px 5px;
+}
+#header img:hover{
+     border: 1px solid white;
+     border-radius: 3px; 
+     border: none;
+}
+#header .Cart:hover{
+    border: 1px solid white;
+    border-radius: 3px;
+}
+#header a:hover{
+    border: 1px solid white;
+    border-radius: 3px;
+    
+}
+.option:hover{
+    opacity: 0.5;
+}
+button:hover{
+    opacity: 0.5;
+}
+ul.navbar{
+    margin: 0px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #232f3e;
+    height: 40px;
+    
+    
+}
+.navbar li{
+    margin-top: 10px;
+    list-style: none;
+    position: relative;
+    margin-left: -25px;
+}
+.navbar li a{
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+    padding: 9px 9px 9px 9px;
+}
+.navbar a img{
+    height: 35px;
+}
+.navbar a:hover{
+    border: 1px solid white;
+    border-radius: 3px;
+}
+
+#container{
+    display: flex;
+}
+#container h2{
+    font-size: 21px;
+    
+}
+#container1 img{
+    width: 100%;
+}
+.fa-chevron-left {
+    position: absolute;
+    top: 30%;
+    left: 0;
+    color: black;
+    font-size: 3rem;
+    padding: 15px;
+    margin-left: 1%;
+    cursor: pointer;
+}
+.fa-chevron-right {
+    position: absolute;
+    top: 30%;
+    right: 0;
+    color: black;
+    font-size: 3rem;
+    padding: 15px;
+    margin-right: 1%;
+    cursor: pointer;
+}
+.box a{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    font-weight: 600;
+}
+.box1 a{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    font-weight: 600;
+}
+.box2 a{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    font-weight: 600;
+}
+.box3 a{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    font-weight: 600;
+}
+#container img{
+    width: 10vw;
+}
+.box{
+    margin-left: 30px;
+    background-color: white;
+    padding: 15px;
+    height: 55%;
+    width: 21%;
+    position: absolute;
+    top: 55%;
+}
+.box1{
+    margin-left: -55px;
+    background-color: white;
+    padding: 15px;
+    height: 55%;
+    width: 21%;
+    position: absolute;
+    top: 55%;
+    left: 30%;
+}
+.box2{
+    margin-left: -140px;
+    background-color: white;
+    padding: 15px;
+    height: 55%;
+    width: 21%;
+    position: absolute;
+    top: 55%;
+    left: 60%;
+}
+.box3{
+    background-color: white;
+    padding: 15px;
+    height: 55%;
+    width: 21%;
+    position: absolute;
+    top: 55%;
+    left: 75%;
+}
+
+.section1{
+    /* width: 20%; */
+    display: flex;
+}
+.pic2{
+    margin-left: 10px;
+}
+.section2{
+    /* width: 20%; */
+    display: flex;
+    margin-top: 15px;
+}
+.pic4{
+    margin-left: 10px;
+}
+.pic22{
+    margin-left: 3%;
+}
+.pic44{
+    margin-left: 3%;
+}
+.pic222{
+    margin-left: 3%;
+}
+.pic444{
+    margin-left: 3%;
+}
+.see{
+    
+    margin-top: 7%;
+}
+.see a{
+    color: #007185;
+    font-size: 13px;
+
+}
+.see a:hover{
+    color: #d7815d;
+    text-decoration: underline;
+}
+.sale{
+     margin-top: 14%; 
+}
+.sale a{
+    color: #007185;
+    font-size: 13px;
+}
+.sale a:hover{
+    color: #d7815d;
+    text-decoration: underline;
+}
+.explore{
+    margin-top: 8%;
+}
+.explore a{
+    color: #007185;
+    font-size: 13px;
+}
+.explore a:hover{
+    color: #d7815d;
+    text-decoration: underline;
+}
+.offers{
+    margin-top: 13%;
+}
+.offers a{
+    color: #007185;
+    font-size: 13px;
+}
+.offers a:hover{
+    color: #d7815d;
+    text-decoration: underline;
+}
+.boxx{
+    margin-left: 30px;
+    background-color: white;
+    padding: 15px;
+    height: 60%;
+    width: 21%;
+    position: absolute;
+    top: 117%;
+}
+.boxx1{
+    margin-left: -55px;
+    background-color: white;
+    padding: 15px;
+    height: 60%;
+    width: 21%;
+    position: absolute;
+    top: 117%;
+    left: 30%;
+}
+.boxx2{
+    margin-left: -140px;
+    background-color: white;
+    padding: 15px;
+    height: 60%;
+    width: 21%;
+    position: absolute;
+    top: 117%;
+    left: 60%;
+}
+.boxx3{
+    background-color: white;
+    padding: 15px;
+    height: 60%;
+    width: 21%;
+    position: absolute;
+    top: 117%;
+    left: 75%;
+}
+.boxx a{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    font-weight: 600;
+}
+.boxx1 a{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    font-weight: 600;
+}
+.boxx2 a{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    font-weight: 600;
+}
+.boxx3 a{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    font-weight: 600;
+}
+.seee{
+    
+    margin-top: 7%;
+}
+.seee a{
+    color: #007185;
+    font-size: 13px;
+}
+.seee a:hover{
+    color: #d7815d;
+    text-decoration: underline;
+}
+.salee{
+     margin-top: 20%; 
+}
+.salee a{
+    color: #007185;
+    font-size: 13px;
+}
+.salee a:hover{
+    color: #d7815d;
+    text-decoration: underline;
+}
+.exploree{
+    margin-top: 8%;
+}
+.exploree a{
+    color: #007185;
+    font-size: 13px;
+}
+.exploree a:hover{
+    color: #d7815d;
+    text-decoration: underline;
+}
+.offerss{
+    margin-top: 8%;
+}
+.offerss a{
+    color: #007185;
+    font-size: 13px;
+}
+.offerss a:hover{
+    color: #d7815d;
+    text-decoration: underline;
+}
+
+.boxxx{
+    margin-left: 30px;
+    background-color: white;
+    padding: 15px;
+    height: 60%;
+    width: 21%;
+    position: absolute;
+    top: 184%;
+}
+.boxxx1{
+    margin-left: -55px;
+    background-color: white;
+    padding: 15px;
+    height: 60%;
+    width: 21%;
+    position: absolute;
+    top: 184%;
+    left: 30%;
+}
+.boxxx2{
+    margin-left: -140px;
+    background-color: white;
+    padding: 15px;
+    height: 60%;
+    width: 21%;
+    position: absolute;
+    top: 184%;
+    left: 60%;
+}
+.boxxx3{
+    background-color: white;
+    padding: 15px;
+    height: 60%;
+    width: 21%;
+    position: absolute;
+    top: 184%;
+    left: 75%;
+}
+.boxxx a{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    font-weight: 600;
+}
+.boxxx1 a{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    font-weight: 600;
+}
+.boxxx2 a{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    font-weight: 600;
+}
+.boxxx3 a{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    font-weight: 600;
+}
+.seeee{
+    
+    margin-top: 20%;
+}
+.seeee a{
+    color: #007185;
+    font-size: 13px;
+}
+.seeee a:hover{
+    color: #d7815d;
+    text-decoration: underline;
+}
+.saleee{
+     margin-top: 20%; 
+}
+.saleee a{
+    color: #007185;
+    font-size: 13px;
+}
+.saleee a:hover{
+    color: #d7815d;
+    text-decoration: underline;
+}
+.exploreee{
+    margin-top: 20%;
+}
+.exploreee a{
+    color: #007185;
+    font-size: 13px;
+}
+.exploreee a:hover{
+    color: #d7815d;
+    text-decoration: underline;
+}
+.offersss{
+    margin-top: 8%;
+}
+.offersss a{
+    color: #007185;
+    font-size: 13px;
+}
+.offersss a:hover{
+    color: #d7815d;
+    text-decoration: underline;
+}
+
+#footer{
+    background-color: #232F3E;
+    display: flex;
+    height: 60vh;
+    margin-top: -10%;
+}
+#footer .content{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+#footer .content h3{
+    color: white;
+    font-size: 15px;
+}
+#footer .content a{
+    margin-top: 20px;
+    color: #DDDDDD;
+    text-decoration: none;
+    font-size: 15px;
+}
+#footer .content a:hover{
+    text-decoration: underline;
+}
